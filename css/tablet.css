@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1023px) and (min-width: 740px) {
+    /* #about {
+        background-image: none;
+      } */
+      .bg-grey {
+        background: none;
+      }
+/* navbar */
+.avatar {
+  display: none;
+}
+.nav-item {
+  border-left: 1px solid #e9ecef;
+  border-right: 1px solid #e9ecef;
+}
+
+/* mục tiêu - thông tin */
+#target {
+    background-color: #f8f9fa;
+  } 
+  #personal-info {
+    background-color: #f1f3f5;
+  }
+/*kỹ năng - cá nhân*/
+.grid {
+    grid-template-columns: 1fr 2fr;
+}
+.grid-item {
+    width: 400px;
+}
+
+/*chứng chỉ-giải thưởng*/
+.cert-text {
+    position: none;
+    bottom: 0;
+    left: 0;
+    margin-top: 5px;
+  }
+.cert-column2 {
+    height: 150px;
+    margin: 100px 0;
+}
+.cert-column1 {
+  border-right: 1px solid #d6c08d;
+}
+.cert-row {
+    background-color: #f1f3f5;
+    height: 550px;
+    width: 680px;
+    top: 0;
+}
+.cert-column {
+    width: 320px;
+    margin: 15px 0;
+    height: 230px;
+    margin: 15px 5px;
+}
+.cert-img {
+    width: 300px;
+}
+.clearfix {
+  border-bottom: 1px solid #d6c08d;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 0;
+}
+
+
+
+/* footer */
+#footer {
+    background-color: #f1f3f5;
+  }
+.footer-ul {
+  margin-left: 17%;
+}
+}
